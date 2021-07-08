@@ -1,4 +1,5 @@
-regrex<- read.csv(args[1])
+args = commandArgs(trailingOnly=TRUE)
+regrex <- read.csv(args[1])
 png('r_orig.png')
 plot(regrex, pch = 16, col = "blue")
 dev.off()
