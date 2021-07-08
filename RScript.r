@@ -1,4 +1,4 @@
-regrex<- read.csv("regrex1.csv")
+regrex<- read.csv(args[1])
 png('r_orig.png')
 plot(regrex, pch = 16, col = "blue")
 dev.off()
